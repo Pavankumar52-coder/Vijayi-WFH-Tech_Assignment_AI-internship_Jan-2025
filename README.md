@@ -1,5 +1,5 @@
 # Vijayi-WFH-Tech_Assignment_AI-internship_Jan-2025
-# Task A: Task Extraction and Categorization
+# Task 1: Task Extraction and Categorization
 Insights:
 -> Effective Rule-Based Extraction:
 Used regex patterns for modal verbs like should, must, needs to e.t.c.. and time-related phrases allowed model for accurate task extraction.
@@ -22,7 +22,7 @@ Solution: Using spaCy for tokenization of words, sentences and sentence splittin
 Tasks buried in compound sentences will sometimes be missed.
 Solution: Implement dependency parsing for better understanding of sentence structure
 
-# Task B: Sentiment Classification (IMDb Reviews)
+# Task 2: Sentiment Classification (IMDb Reviews)
 Insights:
 Model Performance:
 Achieved 78% accuracy with Logistic Regression and TF-IDF vectorizer.We can increase the model performance by utilizibg the hyper-parameters.
